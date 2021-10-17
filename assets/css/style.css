@@ -1,25 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-    Template Name: Eventify - Event and Conference Template
-    Template URI: graygrids.com
-    Description: Eventify - Event and Conference Template
-    Author: GrayGrids
-    Author URI: graygrids.com
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
-    CSS INDEX
-    ===================
-
-    01. Theme default CSS
-	02. Header
-    03. Hero
-	04. Footer
-
------------------------------------------------------------------------------------*/
-
-
 /*===========================
     1. COMMON css 
 ===========================*/
@@ -181,7 +159,8 @@ p {
 /*===== All Section Title Style =====*/
 
 .section-title .title {
-    font-size: 50px;
+    font-size: 37px;
+    text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -1492,8 +1471,8 @@ p {
 
 .single-team .team-content .team-name a {
     color: #1b273d;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 450;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -2054,6 +2033,14 @@ p {
 
 
 /* custom */
+
+.title-link {
+    color: rgb(89, 133, 255);
+}
+
+.title-link:hover {
+    color: rgb(173, 235, 115);
+}
 
 .logo-img {
     width: 100px;
