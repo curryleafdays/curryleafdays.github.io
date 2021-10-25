@@ -2067,6 +2067,7 @@ p {
 
 .logo-img {
     max-width: 40%;
+    border-radius: 50%;
 }
 
 .speakers-img {
