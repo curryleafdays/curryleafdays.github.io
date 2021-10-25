@@ -1,1 +1,1 @@
-Curry leaf is a maths club of MTTS alumnis. Visit the [homepage](https://sites.google.com/view/curryleaf/) for more details. This website is for the 1st Curry leaf days that we are going to celebrate. 
+Curry leaf is a maths club of MTTS alumnis. Visit the [homepage](https://sites.google.com/view/curryleaf/) for more details. This website is for the 1st Curry leaf days that we are going to celebrate. You can visit the website [here](https://curryleafdays.github.io).
