@@ -50,6 +50,10 @@
     color: #ddf435;
 }
 
+.event-tab .tab-content .event-content .single-event:hover .event-content .event-meta a:hover{
+    color: #4f0;
+}
+
 .container .team .member {
     width: 325px;
     margin: 10px;
