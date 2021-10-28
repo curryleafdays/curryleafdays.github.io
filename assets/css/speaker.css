@@ -46,6 +46,10 @@
     color: #fff;
 }
 
+.event-tab .tab-content .event-content .single-event:hover .event-content .event-meta a{
+    color: #ddf435;
+}
+
 .container .team .member {
     width: 325px;
     margin: 10px;
