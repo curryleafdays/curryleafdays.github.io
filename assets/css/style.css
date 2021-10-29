@@ -2075,11 +2075,11 @@ p {
     height: 470px;
 }
 
-.img-event {
+.single-event .event-image a .img-event {
     width: 300px;
     height: 200px;
     position: relative;
-    top: 25%;
+    margin-top: 30%;
     transition: transform 0.25s ease;
 }
 
