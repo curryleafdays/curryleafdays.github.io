@@ -16,10 +16,7 @@
     transition: transform 0.25s ease;
 }
 
-.organizer .member img:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
+
 
 .organizer .member .name {
     color: black;
