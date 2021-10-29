@@ -13,6 +13,12 @@
     width: 100%;
     border-radius: 50%;
     transition: .3s;
+    transition: transform 0.25s ease;
+}
+
+.organizer .member img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .organizer .member .name {
