@@ -2146,7 +2146,7 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3.5rem;
-    animation: blink 2s linear infinite;
+    animation: blink 1.5s linear infinite;
 }
 
 @keyframes blink {
