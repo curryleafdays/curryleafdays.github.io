@@ -2161,3 +2161,22 @@ p {
   }
 }
 
+.join-youtube a{
+    background: #00FF00;
+    background: -webkit-linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+    background: -moz-linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+    background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.join-youtube a:hover{
+    background: #25CC0F;
+    background: -webkit-linear-gradient(to bottom right, #25CC0F 0%, #9E3212 100%);
+    background: -moz-linear-gradient(to bottom right, #25CC0F 0%, #9E3212 100%);
+    background: linear-gradient(to bottom right, #25CC0F 0%, #9E3212 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
