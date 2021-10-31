@@ -2180,3 +2180,21 @@ p {
     -webkit-text-fill-color: transparent;
 
 }
+
+@media screen and (max-width: 380px) {
+    .day{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .logo-img{
+        max-width: 12%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .logo-img{
+        margin-left: 10px;
+    }
+}
