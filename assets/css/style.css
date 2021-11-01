@@ -2198,3 +2198,9 @@ p {
         margin-left: 10px;
     }
 }
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 767px) and (orientation:landscape) {
+  .day{
+    margin-top: 100px;
+  }
+}
