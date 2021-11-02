@@ -2219,7 +2219,7 @@ p {
     box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.23);
 }
 
-.main-btn.main-btn-feedback:hover {
+.main-btn-feedback:hover {
     background-position: right center;
     color: #fff;
 }
