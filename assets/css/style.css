@@ -2207,6 +2207,12 @@ p {
   }
 }
 
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1400px) {
+  .day{
+    margin-top: 4.5rem;
+  }
+}
+
 .main-btn-feedback {
     background: -webkit-linear-gradient(left, #102baf 0%, #1664ff 50%, #102baf 100%);
     background: -o-linear-gradient(left, #102baf 0%, #1664ff 50%, #102baf 100%);
