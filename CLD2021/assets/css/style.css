@@ -2229,3 +2229,7 @@ p {
     background-position: right center;
     color: #fff;
 }
+
+a.disabled {
+    pointer-events: none;
+}
