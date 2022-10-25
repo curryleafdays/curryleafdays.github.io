@@ -1,0 +1,80 @@
+.organizer {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    transition: 1s;
+}
+
+.organizer .member {
+    padding: 35px;
+    margin: 16px auto 0;
+}
+
+.organizer .member img {
+    border-radius: 50%;
+    transition: .3s;
+    transition: transform 0.25s ease;
+}
+
+.organizer .member img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.organizer .member .name {
+    color: black;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.organizer .member .role {
+    color: rgb(139, 139, 139) !important;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.organizer .member .affiliation {
+    color: rgb(43, 43, 43) !important;
+    font-size: 15px;
+}
+
+
+/* width 980px */
+
+@media(max-width:1000px) {
+    .organizer {
+        grid-template-columns: 33% 33% 33%;
+    }
+    .organizer .member {
+        padding: 25px;
+        margin: 16px auto 0;
+    }
+}
+
+
+/* width 600px */
+
+@media(max-width: 600px) {
+    .organizer {
+        grid-template-columns: 50% 50%;
+    }
+    .organizer .member img {
+        width: 120px;
+        border-radius: 50%;
+        transition: .3s;
+    }
+}
+
+
+/* width 375px */
+
+@media(max-width: 375px) {
+    .organizer {
+        grid-template-columns: 50% 50%;
+        overflow-x: auto;
+    }
+    .organizer .member img {
+        width: 120px;
+        border-radius: 50%;
+        transition: .3s;
+    }
+}
