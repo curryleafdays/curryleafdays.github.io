@@ -666,7 +666,7 @@ p {
     position: relative;
 }
 
-.navbar-area .navbar .navbar-nav .nav-item a {
+.navbar-area .navbar .navbar-nav .nav-item > a {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
@@ -1191,7 +1191,10 @@ p {
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
 }
+.event-tab .tab-content .event-content .single-event .event-image img {
 
+
+}
 @media (max-width: 767px) {
     .event-tab .tab-content .event-content .single-event .event-image img {
         width: 100%;
@@ -2080,7 +2083,7 @@ p {
 .img-event-3,
 .img-event-4,
 .img-event-5 {
-    width: 400px;
+    /* width: 400px; */
     height: 400px;
     position: relative;
     transition: transform 0.25s ease;
