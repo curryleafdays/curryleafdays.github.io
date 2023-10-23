@@ -749,9 +749,11 @@ p {
 
 
 /*===== Header =====*/
-
+.hero-container{
+    padding-top: 4rem;
+}
 .header-content-area {
-    height: 750px;
+    height: 785px;   
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     position: relative;
@@ -2069,7 +2071,7 @@ p {
 }
 
 .logo-img {
-    max-width: 40%;
+    max-width: 5rem;
     border-radius: 50%;
 }
 
