@@ -779,7 +779,7 @@ p {
     padding-top: 4rem;
 }
 .header-content-area {
-    height: 785px;   
+    height: 90vh;   
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     position: relative;
