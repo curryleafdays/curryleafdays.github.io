@@ -137,10 +137,10 @@
         <div class="container hero-container">
           <div class="row justify-content-center">
             <div class="col-lg-10">
-              <div data-countdown="2024/10/27 14:00:00"></div>
-              <!-- <h2 class="text-center day blink">Curry Leaf Days are Live</h2> -->
-              <!-- <h2 class="text-center day blink">Meet you all again in the next year!!!</h2> -->
-              <!-- <h2 class="text-center join-youtube"><a href="https://www.youtube.com/channel/UCSL7qOSspcPCyBQ40DfUaUw" target="_blank">Join YouTube</a></h2> -->
+              <div data-countdown="2024/10/27 14:00:00" class="curry-leaf-days-countdown" style="display: none;"></div>
+              <h2 class="text-center day blink curry-leaf-days-live" style="display: none;">Curry Leaf Days are Live</h2>
+              <h2 class="text-center day blink curry-leaf-days-past" style="display: none;">Meet you all again in the next year!!!</h2>
+              <h2 class="text-center join-youtube curry-leaf-days-past" style="display: none;"><a href="https://www.youtube.com/channel/UCSL7qOSspcPCyBQ40DfUaUw" target="_blank">Join YouTube</a></h2>
 
               <!-- <br /> -->
               <!-- <br> -->
@@ -931,7 +931,7 @@
         
           <div class="member" data-wow-duration=".5s" data-wow-delay=".5s">
             <div class="vssp-image">
-              <img src="assets/images/organizers/tamogna.jpg" alt="Tamoghna" />
+              <img src="assets/images/organizers/Tamoghna.jpeg" alt="Tamoghna" />
             </div>
             <p class="text-center name">Tamoghna</p>
             <hr />
@@ -1045,6 +1045,22 @@
       if (window.matchMedia("(max-width: 768px)").matches) {
         var element = document.querySelector(".dropdown .dropdown-menu");
         element.classList.add("show");
+      }
+      window.onload = function() {
+        const start_date = new Date("2024/10/27 07:00:00");
+        const end_date = new Date("2024/11/17 20:00:00");
+        const now = new Date();
+        // console.log("countdown",now,start_date,end_date);
+        if(now < start_date) {
+          document.getElementsByClassName("curry-leaf-days-countdown")[0].style.display = "block";
+        } else if (now >= start_date && now <= end_date) {
+          // console.log("live", document.getElementsByClassName("curry-leaf-days-live"));
+          document.getElementsByClassName("curry-leaf-days-live")[0].style.display = "block";
+        } else {
+          document.getElementsByClassName("curry-leaf-days-past")[0].style.display = "block";
+          document.getElementsByClassName("curry-leaf-days-past")[1].style.display = "block";
+ 
+        }
       }
     </script>
     <!--====== jquery js ======-->
